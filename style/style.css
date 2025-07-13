@@ -903,6 +903,11 @@ body::-webkit-scrollbar-track {
     gap: 10px;
   }
 }
+@media screen and (max-width: 767px) {
+  .btns-container{
+    display: none;
+  }
+}
 @media screen and (max-width: 850px) {
   .nav-list {
     display: none;
