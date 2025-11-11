@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="images/favi.png">
+    <script src="script/script.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html"><img src="images/logo-2.png" alt="" class="logo"></a>
+        </div>
+    </header>
+<section class="back">
+    <form class="login-form">
+        <h1 class="login-title">Login</h1>
+        <div class="form-element0">
+            <i class="fa-solid fa-user" id="icons2"></i>
+            <input type="email" name="email" id="email" placeholder="E-mail" class="forms">
+        </div>
+        <div class="form-element">
+            <i class="fa-solid fa-lock" id="icons2"></i>
+            <input type="password" id="passwd" name="passwd" placeholder="Senha" class="forms">
+            <i class="fa fa-eye showpwd" id="icons2" style="cursor: pointer;" onClick="showPwd('passwd', this)"></i>
+        </div>
+        <div class="form-element-2">
+            <div class="remember-container">
+                <input type="checkbox" name="Remeber-me" id="checkbox">
+                <label for="checkbox" class="remember-me">Lembre-me</label>
+            </div>
+            <a href="" class="forgot">Esqueci minha senha</a>
+        </div>
+        <div class="form-element-3">
+            <a href="index.html"><p class="btn-login">Entrar</p></a>
+            <p class="dont-have">Não tem uma conta? <a href="" class="sign">Registre-se</a></p>
+        </div>
+            
+        </div>
+        </div>
+
+    </form>
+</section>
+    
+</body>
+</html>
